@@ -1,5 +1,4 @@
 import psycopg2.extras as p
-
 from data_test_ci.data_pipeline import run
 from data_test_ci.utils.db import WarehouseConnection
 from data_test_ci.utils.sde_config import get_warehouse_creds
